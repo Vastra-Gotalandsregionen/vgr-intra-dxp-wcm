@@ -1,6 +1,6 @@
 <#-- Define services -->
-<#assign groupLocalService = serviceLocator.findService("com.liferay.portal.service.GroupLocalService") >
-<#assign layoutLocalService = serviceLocator.findService("com.liferay.portal.service.LayoutLocalService") >
+<#assign groupLocalService = serviceLocator.findService("com.liferay.portal.kernel.service.GroupLocalService") >
+<#assign layoutLocalService = serviceLocator.findService("com.liferay.portal.kernel.service.LayoutLocalService") >
 
 <#-- Define some variables -->
 <#assign portletNamespace = "" />
